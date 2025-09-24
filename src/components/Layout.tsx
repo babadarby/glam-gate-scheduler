@@ -1,4 +1,4 @@
-import { Home, Calendar, Info, Phone, Users } from "lucide-react";
+import { Home, Calendar, Info, Phone, Users, Settings } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
@@ -9,6 +9,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     { name: "Home", href: "/", icon: Home },
     { name: "Booking", href: "/booking", icon: Calendar },
     { name: "Customers", href: "/customers", icon: Users },
+    { name: "Admin", href: "/admin", icon: Settings },
     { name: "About", href: "/about", icon: Info },
     { name: "Contact", href: "/contact", icon: Phone },
   ];
